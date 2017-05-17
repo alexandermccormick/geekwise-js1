@@ -1,0 +1,47 @@
+body {
+  background-color: #333;
+}
+
+body .flex-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body .flex-container .content-container {
+  color: #00F;
+  background-color: #aaa;
+  width: 45%;
+  height: 45%;
+  border: 0.5vw solid #00F;
+  border-radius: 1vw;
+  box-shadow: 0 0 15px 0 #00F, inset 0 0 15px 0 #00F;
+  padding: 3vw;
+}
+
+body .flex-container .content-container .title {
+  text-align: center;
+  font-size: 3vw;
+  font-family: fantasy;
+}
+
+body .flex-container .content-container .pic {
+  width: 15vw;
+  position: absolute;
+  display: inline;
+}
+
+body .flex-container .content-container .position {
+  margin-left: 16vw;
+  font-size: 2.2vw;
+}
+
+body .flex-container .content-container .blurb {
+  font-size: 2vw;
+  text-align: center;
+  position: relative;
+  bottom: 5vh;
+  display: none;
+}

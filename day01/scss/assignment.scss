@@ -1,0 +1,63 @@
+// COMPILE THIS FILE! (Atom: sass-autocompile)
+
+// VARIABLES
+$bgClr: #333;
+$blue: #00F;
+
+
+
+// MIXINS
+@mixin flex-xy-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+// STYLES
+
+body {
+  background-color: $bgClr;
+
+  .flex-container {
+    height: 100vh;
+    width: 100vw;
+    @include flex-xy-center;
+
+    .content-container {
+      color: $blue;
+      background-color: #aaa;
+      width: 45%;
+      height: 45%;
+      border: .5vw solid $blue;
+      border-radius: 1vw;
+      box-shadow: 0 0 15px 0 $blue, inset 0 0 15px 0 $blue;
+      padding: 3vw;
+
+      .title {
+        text-align: center;
+        font-size: 3vw;
+        font-family: fantasy;
+        // padding: 1vw;
+      }
+
+      .pic {
+        width: 15vw;
+        position: absolute;
+        display: inline;
+      }
+
+      .position {
+        margin-left: 16vw;
+        font-size: 2.2vw;
+      }
+      .blurb {
+        font-size: 2vw;
+        text-align: center;
+        position: relative;
+        bottom: 5vh;
+        display:none;
+      }
+    }
+  }
+}
