@@ -1,0 +1,5 @@
+Why would you add classes or edit things on html page with loops vs just 
+selecting an id and applying it to them all at once?
+
+
+
