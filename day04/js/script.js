@@ -47,6 +47,8 @@ for(var name of names){
 var name = 'matt';
 if(name === 'david'){
   console.log(name);
-}else{
+}else if(name === 'matt'){
   console.log('this', name);
+}else{
+  // do this
 }
