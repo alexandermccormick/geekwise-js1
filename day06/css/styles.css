@@ -1,0 +1,5 @@
+ p.red{
+  color: red;
+  transition: color 1s;
+  text-shadow: 0 0 5px #f00;
+}
