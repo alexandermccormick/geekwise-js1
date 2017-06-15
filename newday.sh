@@ -34,7 +34,7 @@ cat > index.html << EOF
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <title>$dayLabel</title>
 </head>
 <body>
@@ -52,7 +52,7 @@ cat > challenge.html << EOF
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/css/challenge.css">
+  <link rel="stylesheet" href="css/challenge.css">
   <title>$dayLabel</title>
 </head>
 <body>
@@ -61,5 +61,3 @@ cat > challenge.html << EOF
 </body>
 </html>
 EOF
-
-atom .

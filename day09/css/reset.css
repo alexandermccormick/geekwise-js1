@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans|Raleway|Ubuntu");
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #f8f9fb;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+form,
+figure,
+figcaption,
+fieldset,
+legend {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+li {
+    list-style: none;
+}

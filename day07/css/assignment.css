@@ -1,0 +1,45 @@
+body,
+div,
+h1,
+p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.viewport-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-xy-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    width: 100vw;
+}
+
+#checkHold {
+    display: none;
+}
+
+.btn {
+    margin: 0 5%;
+    padding: 1vw 1.5vw;
+    text-align: center;
+    border: .2vw solid black;
+}
+
+.key-name {
+    font-size: 5vw;
+}
+
+.hold-btn {
+    text-align: center;
+}

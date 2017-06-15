@@ -1,0 +1,39 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    width: 250px;
+    height: 250px;
+}
+
+img {
+    height: inherit;
+    width: inherit;
+}
+
+.hidden {
+    visibility: hidden;
+    width: 0px;
+    color: transparent;
+}
+
+.visable {
+    visibility: visible;
+    text-align: center;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, .65);
+    color: transparent;
+    transition: 1s;
+    width: inherit;
+}
+
+.show-text {
+    color: white;
+    transition: .5s;
+}

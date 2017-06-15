@@ -1,0 +1,16 @@
+ul{
+  margin:0;
+  padding:0;
+  position: fixed;
+  width: 100%;
+  top:-100px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  background-color: hsla(300, 30%, 40%, 1);
+  transition:top .5s;
+}
+
+ul.vis{
+  top:0px;
+}

@@ -1,0 +1,16 @@
+nav{
+  background-color: purple;
+}
+ul{
+  display:flex;
+  list-style-type: none;
+}
+form{
+  display:flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+li:last-child{
+  margin-left: auto;
+}

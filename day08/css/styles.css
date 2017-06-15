@@ -1,0 +1,19 @@
+/*body {
+    height: 100vh;
+    width: 100vw;
+}*/
+
+div:first-of-type {
+    padding-top: 5vw;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#sticky {
+    margin-top: 10vw;
+    border: .3vw solid black;
+    padding: 2vw;
+    width: 35vw;
+    height: 35vw;
+}
